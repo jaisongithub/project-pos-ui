@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/mdb.css",
+    "inputFile": "wwwroot/scss/mdb.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/style.css",
+    "inputFile": "wwwroot/scss/style.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/adminpanelstyles.css",
+    "inputFile": "wwwroot/scss/adminpanelstyles.scss"
+  }
+]
