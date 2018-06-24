@@ -21,16 +21,16 @@
     <link href="~/css/adminpanelstyles.min.css" rel="stylesheet" />
 </head>
 <body class="fixed-sn mdb-skin-custom hold-transition sidebar-mini" data-spy="scroll" data-target="#scrollspy" data-offset="15" style="">
-
-
-    <div class="wrapper">
+    <header class="header posadmin-top-header">
+     
+    </header>
+    <div class="wrapper" style="height:2000px;">
         @RenderBody()
         <hr />
         <footer>
             <p>&copy; 2018 - WebApplication3</p>
         </footer>
     </div>
-
     <environment include="Development">
         <script src="~/js/jquery-3.3.1.min.js"></script>
         <script src="~/js/bootstrap.js"></script>
@@ -44,9 +44,7 @@
         <script src="~/js/popper.min.js"></script>
         <script src="~/js/site.min.js"></script>
     </environment>
-
     <script src="~/js/adminpanel/adminlte.min.js"></script>
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>
