@@ -6,6 +6,8 @@
 @import "core/bootstrap/functions";
 @import "core/bootstrap/variables";
 
+@import "adminpanel/adminpanelvariables";
+@import "adminpanel/adminpanelmixins";
 
 // CORE
 @import "core/mixins";
@@ -19,8 +21,14 @@
 @import "core/masks";
 @import "core/waves";
 
+
+
+@import "free/topheader";
+
+
+
 // FREE
-@import "free/animations-basic";
+/*@import "free/animations-basic";
 @import "free/animations-extended";
 @import "free/buttons";
 @import "free/cards";
@@ -36,7 +44,7 @@
 @import "free/footers";
 @import "free/list-group";
 @import "free/tables";
-@import "free/depreciated";
+@import "free/depreciated";*/
 
 
 
