@@ -1,0 +1,19 @@
+/*http: //preview.oklerthemes.com/porto-admin/2.1.1/*/
+html {
+    padding-top: 60px;
+}
+
+.posadmin-top-header {
+    z-index: $zindex-main-header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #eee;
+    height: 60px;
+
+    @media (max-width: $medium-screen) {
+        background: red;
+    }
+}
